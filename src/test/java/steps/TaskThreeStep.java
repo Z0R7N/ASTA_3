@@ -14,7 +14,7 @@ public class TaskThreeStep extends BaseTest{
                 .inputText("in-surname", "Andersen")
                 .inputText("in-notes", "sdlkf fsdgkll tw;gwwp4 rfw5 jkwjkgsd lfsdjgwq45qjg kj")
                 .inputText("in-phone", "54654634")
-                .uploadPicture("//input[@id='in-file']", "D:\\Rab_stol\\bscap0000.jpg")
+                .uploadPicture("//input[@id='in-file']", "D:\\CodeProjects\\ASTA_3\\src\\assert\\picTest.png")
                 .clickButton("save-btn");
     }
 }
